@@ -1,0 +1,24 @@
+.cont-1 {
+    height: 300px;
+    background-color: #2DAA9E;
+    border: 3px solid blue;
+}
+
+#heading-1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: lightgreen;
+}
+
+.cont-1 > #heading-2 {
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-shadow: 12px 2px 12px black;
+}
+
+.cont-1 > #para-1 {
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 30px;
+}

@@ -1,0 +1,27 @@
+h1 {
+    color: burlywood;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+#first-heading {
+    color: chartreuse;
+}
+
+#second-heading {
+    color: aqua;
+}
+
+#second-division, .container-one {
+    background-color: darkmagenta;
+}
+
+.container, .container-two {
+    background-color: lightcoral;
+}
+
+* {
+    font-style: italic;
+}

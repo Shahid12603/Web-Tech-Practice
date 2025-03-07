@@ -1,0 +1,61 @@
+.cont-1 h1 {
+  background-color: beige;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cont-2 h1 {
+  background-color: burlywood;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* .cont-3 > h1 {
+  background-color: blue;
+  padding: 10px;
+  margin: 10px;
+} */
+
+.cont-4 ul > li:nth-child(2n + 1) {
+  background-color: brown;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cont-5 > .button1:active {
+  background-color: red;
+}
+
+.button1:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.cont-6 > ol > li::marker {
+  color: red;
+}
+
+.cont-7 form > input[type="text"] {
+  background-color: red;
+  border: none;
+}
+
+.cont-7 form > input[type="email"] {
+  background-color: yellow;
+}
+
+.cont-7 form > input[type="password"] {
+  background-color: green;
+}
+
+.cont-7 a[target="_blank"] {
+  background-color: yellow;
+}
+
+.cont-3 > h1::after {
+  content: "!!";
+}
+
+.cont-3 > h1::before {
+  content: "**";
+}

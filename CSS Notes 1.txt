@@ -1,0 +1,51 @@
+CSS Notes 1: 
+
+1. CSS stands for Cascading Style Sheet
+2. CSS describes how HTML elements are to be displayed on screen.
+3. It is used to add styling and aligning the property.
+
+We can add CSS in 3 Ways:
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+Inline CSS :
+--> It is way of writing the CSS in same line.
+--> For this we need style attribute.
+
+Internal CSS:
+--> It is the way of writing the CSS in the same HTML file using <style> </style> tag.
+
+<!-- Syntax of Selector -->
+
+selectorName {
+	propertyName: Value;
+	propertyName: Value;
+	.
+	.
+	.
+	.
+	.
+	.
+	.
+	propertyName: Value;
+}
+
+
+External CSS:
+--> Here we are writing out CSS code in separate CSS file.
+--> For Creating CSS file we need .CSS file
+--> Then we have to link our CSS file with our html file.
+--> For that we need <link> tag
+--> In <link> tag we have two attributes. (rel, href)
+
+<link rel="stylesheet" href="./style.css">
+
+<!-- Notes -->
+
+--> If we apply inline, internal and external CSS on the same element. The Inline CSS will be applied.
+--> Internal and external CSS has same priority. Which one will be at the end, that will be applied.
+
+
+
+

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 40px;
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  transition: all 0.2s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card > .dollar-cont {
+  font-weight: 800;
+  font-size: 15px;
+  color: #0096ff;
+}
+
+.card > .butt-cont {
+  width: 100%;
+  padding: 10px;
+  background-color: #0096ff;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+
+  &:hover {
+    background-color: #005591;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form in HTML</title>
+  </head>
+
+  <body>
+    <center><h1>☠️👾 Forms in HTML ☠️👾</h1></center>
+
+    <div style="display: flex; justify-content: center;">
+    <fieldset style="width: 500px; background-color: #a6f1e0; border: none; border-radius: 20px">
+      <table style="display: flex; justify-content: center" cellpadding="5">
+        <form action="">
+          <tr>
+            <td>
+              <label for="sname">Student Name :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="sName"
+                id="sname"
+                placeholder="Enter your Name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="ph">Phone Number :</label>
+            </td>
+            <td>
+              <input
+                type="tel"
+                name="sPhone"
+                id="ph"
+                maxlength="10"
+                placeholder="Enter your Phone Number"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="spass">Password :</label>
+            </td>
+            <td>
+              <input
+                type="password"
+                name="sPass"
+                id="spass"
+                placeholder="Enter your Password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sage">Student Age :</label>
+            </td>
+            <td>
+              <input
+                type="number"
+                name="sAge"
+                id="sage"
+                placeholder="Enter your Age"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="smail">Student Email :</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                name="sMail"
+                id="smail"
+                placeholder="Enter your Mail"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Subject:</label>
+            </td>
+            <td>
+              <!--For CheckBox and for the Radio input type the value is important, and mandatory-->
+              <input type="checkbox" name="sub1" id="html" value="html" />
+              <label for="html">HTML</label>
+              <input type="checkbox" name="sub2" id="css" value="css" />
+              <label for="css">CSS</label>
+              <input type="checkbox" name="sub3" id="js" value="js" />
+              <label for="js">JAVASCRIPT</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Gender: </label>
+            </td>
+            <td>
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="">Female</label>
+              <input type="radio" name="gender" id="others" value="others" />
+              <label for="">Others</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="dob">Date of Birth :</label>
+            </td>
+            <td>
+              <input
+                type="date"
+                name="dob"
+                id="dob"
+                placeholder="Enter the Date"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="address">Address: </label>
+            </td>
+            <td>
+              <textarea
+                name="address"
+                id="address"
+                rows="10"
+                cols="30"
+                placeholder="Enter the Address Here..!"
+                required
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="course">Select the Course: </label>
+            </td>
+            <td>
+              <select name="course" id="course">
+                <option value="JAVA">JAVA FULL STACK DEVELOPMENT</option>
+                <option value="PYTHON">PYTHON FULL STACK DEVELOPMENT</option>
+                <option value="MERN">MERN FULL STACK DEVELOPMENT</option>
+                <option value="MEAN">MEAN FULL STACK DEVELOPMENT</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sal">Expected Salary</label>
+            </td>
+            <td>
+              <input type="range" name="salary" min="0" max="100" id="sal" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button
+                type="submit"
+                style="
+                  border-radius: 10px;
+                  border: none;
+                  background-color: cornflowerblue;
+                  width: 75px;
+                  height: 30px;
+                "
+              >
+                Register
+              </button>
+              <button
+                type="reset"
+                style="
+                  border-radius: 10px;
+                  border: none;
+                  background-color: lightcoral;
+                  width: 75px;
+                  height: 30px;
+                "
+              >
+                Reset
+              </button>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </fieldset>
+  </div>
+  </body>
+</html>

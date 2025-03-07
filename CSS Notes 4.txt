@@ -1,0 +1,44 @@
+CSS Notes 4:
+
+Text properties in CSS are used to control the appearance and formatting of text
+on a webpage.
+
+text-align:
+- Aligns the text within an element.
+- Values: left, right, center, justify, start, end.
+- Example: text-align: center;.
+
+text-decoration:
+- Specify the decoration added to text.
+- Values: none, underline, overline, line-through.
+- Example: text-decoration: underline;.
+
+text-indent:
+- Specifies the indentation of the first line in a text block.
+- Example: text-indent: 20px;.
+
+text-transform:
+- Controls the capitalization of text.
+- Values: none, capitalize, uppercase, lowercase.
+- Example: text-transform: uppercase;.
+
+text-shadow:
+- Adds shadow to text.
+- Values: none or a combination of h-shadow, v-shadow, blur-radius, and
+color.
+- Example: text-shadow: 2px 2px 5px gray;.
+
+letter-spacing:
+- Sets the spacing between characters.
+- Values: length values (px, em, etc.).
+- Example: letter-spacing: 2px;.
+
+word-spacing:
+- Sets the spacing between words.
+- Values: length values (px, em, etc.).
+- Example: word-spacing: 4px;.
+
+line-height:
+- The line-height property is used to specify the space between lines:
+- A line height of 1.5 means the space between lines is 1.5 times the font size.
+- Example: line-height: 0.8;

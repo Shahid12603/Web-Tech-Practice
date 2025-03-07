@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parent-container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+
+.card1 {
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.card {
+    width: 300px;
+    background-color: pink;
+    text-align: center;
+    padding: 30px;
+}

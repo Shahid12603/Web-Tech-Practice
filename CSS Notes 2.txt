@@ -1,0 +1,38 @@
+CSS Notes 2:
+
+Simple Selectors:
+
+--> TagName
+--> Id Name(#)
+--> Class Name(.)
+--> Universal(*)
+--> Grouping(,)
+
+<!-- TagName -->
+
+-> To Target the element based on tagname itself we have to use tagName selector.
+-> The Symbol was the tagname itself.
+
+<!-- Universal -->
+
+-> It will Target all the elements in the document including body tag too.
+-> The Symbol used is asterisk(*).
+
+<!-- Id Name -->
+
+-> To Target the elements uniquely we have to use an id name.
+-> In CSS id name can be duplicated also there is no problem.
+<!-- But once we moved to advanced languages, Repetation of id name will not work. So it is highly recommended not to use it from now on... -->
+-> The Symbol used is Hash(#).
+
+<!-- Class Name -->
+
+-> When we want to give same CSS to more than one elements then we have to use class.
+-> The Symbol used is dot(.).
+
+<!-- Grouping -->
+
+-> To Target multiple elements at  time we have to use a grouping selector
+-> Whenever we need to pass similar properties for multiple elements we can use a grouping selector.
+-> The Symbol used to combine all the elements is comma(,).
+
