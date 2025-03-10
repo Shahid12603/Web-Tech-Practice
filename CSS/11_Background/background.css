@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    background-color: #078BDC;
+}
+
+.parent-container > .heading-one {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.child-container {
+    width: 70%;
+    height: 65%;
+    background-color: #fff;
+    background-image: url("https://images.assettype.com/nationalherald/2023-07/78291fcb-348b-4977-9356-cac52950c43e/1472909629.");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+}
