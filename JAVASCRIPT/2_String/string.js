@@ -35,6 +35,12 @@ let strArr = str.split(" ");
 
 console.log(strArr);
 
+let sliceStr = "Hello World";
+
+console.log(sliceStr.slice(0, 5));
+
+console.log(sliceStr.slice(6));
+
 
 
 
