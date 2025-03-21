@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background: linear-gradient(to right, red, yellow, green);
+  gap: 20px;
+}
+
+.container > .box-1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(239, 235, 235);
+}
+
+.container > .box-1 > .sub-box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(12, 255, 101);
+  animation: movingBox 3s ease-in alternate infinite;
+}
+
+.container > .box-2 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.container > .box-2 > .sub-box2 {
+  width: 80px;
+  height: 80px;
+  border: 3px solid yellow;
+  animation: boxRotate 6s ease-out infinite;
+  background-color: chartreuse;
+}
+
+.container > .box-3 {
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.container > .box-3 > .sub-box3 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border-top: 1px dotted darkblue;
+  border-radius: 50%;
+  animation: circle 0.8s linear infinite;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background: linear-gradient(to right, red, yellow, green);
+  gap: 20px;
+}
+
+.container1 > .box-4 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  animation: circle 20s linear infinite;
+}
+
+.container1 > .box-4 > .sub-box4 {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+@keyframes movingBox {
+  from {
+    background-color: rgb(255, 145, 0);
+    transform: translate(0, 0);
+  }
+  to {
+    background-color: blue;
+    transform: translate(200px);
+    border-radius: 50%;
+  }
+}
+
+@keyframes boxRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+    border: 1px solid yellow;
+  }
+}
