@@ -58,6 +58,48 @@ let entries = Object.entries(Student);
 
 console.log(entries);
 
+//* 4. Object.freeze() => This Method will make the object frozen so that we can't add/modify/delete any keys from the object...
+
+let freeze = {
+    name : "Shahid",
+    age : 21
+}
+
+console.log(freeze);
+Object.freeze(freeze);
+
+freeze.age = 10;
+console.log(freeze);
+
+//* 5. Object.isFrozen() => It is used to check wheather the object is frozen or not. If the object is frozen it will return true otherwise it will return false.
+
+console.log(Object.isFrozen(freeze)); //true
+console.log(Object.isFrozen(Student)); // false
+
+//* 6. Object.seal() => It is also similar to Object.freeze(ob2) but in this method we cannot add anything. It is used to modify only the values.
+
+let ob2 = {
+    obname : "ASUS",
+    price : 4000000
+}
+
+console.log(ob2);
+
+Object.seal(ob2);
+
+//! Adding is not possible
+ob2.Color = "Blue";
+console.log(ob2);
+
+//! Only Modification is possible
+ob2.price = 5000000;
+console.log(ob2);
+
+//* 7. Object.isSealed() => It is used to return true if the object is sealed, Otherwise it will return false.
+
+console.log(Object.isSealed(ob2)); // true
+console.log(Object.isSealed(Student)); //false
+
 let Students = [
   {
     sname: "Elangavi",
