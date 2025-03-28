@@ -25,9 +25,9 @@ let fname = sname.concat(" ", lname, " is ", "Best Batsman......");
 console.log(fname);
 
 let trimname = "   Hellooo ";
-console.log(trimname.length);
+console.log("Before Trimming : ",trimname.length);
 
-console.log(trimname.trim().length);
+console.log("After Trimming : " ,trimname.trim().length);
 
 let str = "Hi How are you...?";
 
@@ -40,6 +40,12 @@ let sliceStr = "Hello World";
 console.log(sliceStr.slice(0, 5));
 
 console.log(sliceStr.slice(6));
+
+console.log(sliceStr.slice(-10));
+
+let spliceStr = "Hello World";
+console.log(spliceStr.substring(0, 5));
+
 
 
 
