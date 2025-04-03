@@ -79,6 +79,9 @@ let gun = [10,20,30,40];
 gun.splice(2,2,"Shahid");
 console.log(gun);
 
+
+//! Higher Order Array Methods
+//? It is used to perform some operations on the array elements and it will return a new array.
 //! Map 
 
 let sub = ['html', 'css', 'js'];
@@ -147,11 +150,13 @@ console.log("Sum of the Even Numbers: " ,ansArr);
 
 let arr4 = [6,2,78,1,9,4,5];
 
+//! It is used to sort the elements of an array in ascending order.
 let ansArr1 = arr4.sort((a, b) => {
     return a - b;
 })
 console.log("Ascending Order is: ",ansArr1);
 
+//! It is used to sort the elements of an array in descending order.
 let ansArr2 = arr4.sort((a, b) => {
     return b - a;
 })
